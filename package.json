@@ -11,7 +11,8 @@
     "build:dev": "webpack --env mode=development",
     "json-server": "json-server --watch db.json --port 7000",
     "eslint": "eslint .",
-    "eslint:fix": "eslint . --fix"
+    "eslint:fix": "eslint . --fix",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
